@@ -63,6 +63,14 @@ Config = {
 			coords = vec3(983.14, -133.17, 79.59),
 			soundLoc = vec3(988.79, -131.62, 78.89), -- Add sound origin location if you don't want the music to play from the dj booth
 		},
+		{ -- Docks for car meet
+			job = "public",
+			enableBooth = true,
+			DefaultVolume = 0.3,
+			radius = 30,
+			coords = vec3(1141.89, -3076.18, 5.85),
+			prop = `prop_boombox_01`
+		},
 	},
 }
 
