@@ -18,7 +18,7 @@ Config = {
 		},
 		{ -- Sisyphus Theater
 			job = "public", -- "public" makes it so anyone can add music.
-			enableBooth = true,
+			enableBooth = false,
 			DefaultVolume = 0.15,
 			radius = 200,
 			coords = vec3(206.9, 1181.04, 226.51),
@@ -26,7 +26,7 @@ Config = {
 		},
 		{ -- Henhouse (smokeys MLO coords)
 			job = "henhouse",
-			enableBooth = true,
+			enableBooth = false,
 			DefaultVolume = 0.1,
 			radius = 30,
 			coords = vec3(-311.35, 6265.18, 32.06),
@@ -49,7 +49,7 @@ Config = {
 		},
 		{ -- Gabz Popsdiner Radio Prop
 			job = "public",
-			enableBooth = true,
+			enableBooth = false,
 			DefaultVolume = 0.1,
 			radius = 30,
 			coords = vec3(1595.53, 6453.02, 26.165),
@@ -57,7 +57,7 @@ Config = {
 		},
 		{ -- LostMC compound next to Casino
 			gang = "lostmc",
-			enableBooth = true,
+			enableBooth = false,
 			DefaultVolume = 0.1,
 			radius = 20,
 			coords = vec3(983.14, -133.17, 79.59),
