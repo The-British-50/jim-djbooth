@@ -2,7 +2,7 @@ print("^2Jim^7-^2DJBooth ^7v^41^7.^43^7.^42 ^2by ^1Jimathy^7")
 
 Config = {
 	Lan = "en",
-	Debug = true, -- Set to true to show target locations
+	Debug = false, -- Set to true to show target locations
 
 	Core = "qb-core",
 	Menu = "qb",
@@ -73,10 +73,10 @@ Config = {
 		},
 		{ -- Billiards Bar
 			job = "billiards",
-			enablebooth = true,
+			enableBooth = true,
 			DefaultVolume = 0.3,
 			radius = 30,
-			coords = vec3(-1588.05, -998.62, 13.08),
+			coords = vec3(-1589.15, -998.75, 13.08),
 		},
 	},
 }
