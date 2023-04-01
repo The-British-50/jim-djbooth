@@ -2,7 +2,7 @@ print("^2Jim^7-^2DJBooth ^7v^41^7.^43^7.^42 ^2by ^1Jimathy^7")
 
 Config = {
 	Lan = "en",
-	Debug = false, -- Set to true to show target locations
+	Debug = true, -- Set to true to show target locations
 
 	Core = "qb-core",
 	Menu = "qb",
@@ -63,13 +63,20 @@ Config = {
 			coords = vec3(983.14, -133.17, 79.59),
 			soundLoc = vec3(988.79, -131.62, 78.89), -- Add sound origin location if you don't want the music to play from the dj booth
 		},
-		{ -- Docks for car meet
+		{ -- Docks test
 			job = "public",
 			enableBooth = true,
 			DefaultVolume = 0.3,
 			radius = 30,
-			coords = vec3(1141.89, -3076.18, 5.85),
+			coords = vec3(1141.89, -3076.18, 4.85),
 			prop = `prop_boombox_01`
+		},
+		{ -- Billiards Bar
+			job = "billiards",
+			enablebooth = true,
+			DefaultVolume = 0.3,
+			radius = 30,
+			coords = vec3(-1588.05, -998.62, 13.08),
 		},
 	},
 }

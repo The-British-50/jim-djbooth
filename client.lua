@@ -18,7 +18,7 @@ local function makeTargets()
 			exports['qb-target']:AddCircleZone("Booth"..i, Locations[i].coords, 0.6, {name="Booth"..i, debugPoly=Config.Debug, useZ=true, },
 				{ options = { { event = "jim-djbooth:client:playMusic", icon = "fab fa-youtube", label = Loc[Config.Lan].target["dj_booth"], job = RequireJob, gang = RequireGang, zoneNum = i, coords = Locations[i].coords }, }, distance = 2.0 })
 			if Locations[i].prop then
-				Props[#Props+1] = makeProp({prop = Locations[i].prop, coords = vec4(Locations[i].coords.x, Locations[i].coords.y, Locations[i].coords.z, math.random(1,359)+0.0) }, true, false)
+				Props[#Props+1] = makeProp({prop = Locations[i].prop, coords = vec4(Locations[i].coords.x, Locations[i].coords.y, Locations[i].coords.z+1.03, math.random(1,359)+0.0) }, true, false)			
 			end
 		end
 	end
