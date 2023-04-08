@@ -79,7 +79,7 @@ Config = {
 			coords = vec3(-1589.15, -998.75, 13.08),
 		},
 		{ -- Triads Bar
-			job = "triadsrecords",
+			job = "triadrecords",
 			enableBooth = true,
 			DefaultVolume = 0.3,
 			radius = 30,
