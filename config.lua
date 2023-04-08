@@ -78,7 +78,16 @@ Config = {
 			radius = 30,
 			coords = vec3(-1589.15, -998.75, 13.08),
 		},
+		{ -- Triads Bar
+			job = "triadsrecords",
+			enableBooth = true,
+			DefaultVolume = 0.3,
+			radius = 30,
+			coords = vec3(-1589.15, -998.75, 13.08),
+			prop = `prop_boombox_01`
+		},
 	},
 }
 
 Loc = {}
+vector3(-838.01, -718.52, 28.28)
